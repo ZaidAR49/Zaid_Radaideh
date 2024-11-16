@@ -1,0 +1,132 @@
+.header{
+ 
+  justify-items: center;
+  align-items: center;
+  background-image: url(./assest/bac.png);
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+ 
+}
+#head {
+  
+
+  padding: 50px;
+  margin: 0;
+  gap: 10px;
+
+  font-family: "Finger Paint", sans-serif;
+  color: aliceblue;
+  display: grid;
+  grid-template-rows: 150px 150px 150px 150px    ;
+  grid-template-columns:  300px 250px auto  ;
+}
+#head h1{
+  font-size: 60px;
+ }
+ #head h2{
+  font-size: 30px;
+ }
+
+#circle>img{
+  width: 150px;
+  opacity: 30%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  
+}
+.felexbox{
+  line-height: 30px;
+   font-size: 21px;
+  color: rgb(101, 100, 95);
+ 
+  width: 100%;
+  margin-top: 100px !important ;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.felexbox #pp{
+  padding: 0px;
+  width: 200px;
+  border-radius: 50%;
+}
+.felexbox h2{
+  color: rgb(0, 107, 189);
+  font-size: 40px;
+}
+.felexbox h3{
+  color: rgb(0, 107, 189);
+  padding: 0px;
+  margin: 2px;
+
+}
+.felexbox h1{
+  color: rgb(0, 107, 189);
+  padding: 0px;
+ margin: 0;;
+
+}
+
+.sk{
+
+  margin-top: 0px  ;
+  padding: 0px;
+  gap: 50px;
+}
+.sk img{
+  margin-right: 20px;
+  width: 100px;
+  float:left;
+}
+.skill{
+  width: 50rem;
+}
+.contact{
+margin-top: 15rem !important;
+gap: 2rem;
+}
+ .butt{
+  padding: .6rem;
+  padding-left: 2rem;
+  margin-bottom: 10rem;
+  background-color: rgb(0, 107, 189);
+color: white !important;
+font-size: x-large !important;
+width: 200px;
+height: 50px;
+border-radius: 7px;
+
+}
+.butt:hover{
+
+}
+#footer{
+  
+  width: 100%;
+  background-color: rgb(13, 137, 218);
+ 
+}
+.foot{
+  flex-wrap: nowrap;
+height: 150px;
+padding: 0px !important;
+margin: 0px !important;
+  color: white;
+  width: 100% !important;
+  flex-direction: row;
+
+  
+}
+a{color: white; text-decoration: none ;text-align: center;}
+.foot p{padding: 0px;margin: 0px;}
+.fitem{
+  padding: 0px;
+  margin: 0px;
+ padding-left: 140px;
+}
